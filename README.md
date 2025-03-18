@@ -3,7 +3,10 @@
 ### AI 음성 인식과 자연어 처리를 활용한 스마트 일정 관리 앱 🚀
 -------
 
-### 데모 영상 추가중...
+### 데모 영상
+
+## 📹 데모 영상
+[![Watch the video](https://drive.google.com/file/d/1oWl2Drg9tyym8EBtGoJ4lS3tTDCRxmcd/view?usp=drive_link)
 
 ## ✨ 주요 기능
 
