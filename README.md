@@ -22,6 +22,35 @@
 
 ![Information Architecture drawio](https://github.com/user-attachments/assets/89a62502-2d06-4226-9108-3cc13827e6a5)
 
+## 프로젝트 구조
+```
+📦 lib
+ ┣ 📂 screens            # 앱의 주요 화면
+ ┃ ┣ 📜 home_screen.dart           # 홈 화면
+ ┃ ┣ 📜 intro_screen.dart          # 인트로 화면
+ ┃ ┣ 📜 login_screen.dart          # 로그인 화면
+ ┃ ┣ 📜 profile_screen.dart        # 프로필 화면
+ ┃ ┣ 📜 register_screen.dart       # 회원가입 화면
+ ┃ ┣ 📜 task_category_screen.dart  # 작업 카테고리 선택 화면
+ ┃ ┣ 📜 task_edit_screen.dart      # 작업 수정 화면
+ ┃ ┣ 📜 task_list_screen.dart      # 작업 목록 화면
+ ┃ ┣ 📜 task_priority_screen.dart  # 작업 우선순위 선택 화면
+ ┃
+ ┣ 📂 services          # 서비스 로직 (API, 비즈니스 로직)
+ ┃ ┣ 📜 gemini_service.dart  # Gemini API 연동 서비스
+ ┃ ┣ 📜 speech_service.dart  # 음성 인식 서비스
+ ┃
+ ┣ 📂 utils             # 유틸리티 (공통 색상, 상수 등)
+ ┃ ┣ 📜 colors.dart          # 색상 팔레트 정의
+ ┃
+ ┣ 📂 widgets           # 재사용 가능한 UI 위젯
+ ┃ ┣ 📜 bottom_nav_bar.dart  # 하단 네비게이션 바
+ ┃ ┣ 📜 mic_button.dart      # 마이크 버튼 UI
+ ┃ ┣ 📜 task_modal.dart      # 작업 추가 모달 UI
+ ┃
+ ┣ 📜 main.dart         # 앱의 진입점
+ ┣ 📜 .env             # 환경 변수 파일 (API 키 등)
+```
 
 ## 프로토타입
 https://www.figma.com/proto/vz6nCq1vO04dnd6IC6bbE5/SayDo---%EC%9D%8C%EC%84%B1-%EB%B0%8F-%EC%9E%90%EC%97%B0%EC%96%B4-Todo?node-id=0-1&t=dAofrwWDQgKB6saU-1
